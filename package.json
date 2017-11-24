@@ -1,0 +1,15 @@
+{
+  "name": "molo-landing-page",
+  "version": "1.0.0",
+  "description": "molo landing page",
+  "main": "index.js",
+  "keywords": [
+    "molo",
+    "finance",
+    "landing",
+    "page",
+    "static"
+  ],
+  "author": "Sam De Maeyer",
+  "license": "ISC"
+}
