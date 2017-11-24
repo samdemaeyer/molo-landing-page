@@ -1,7 +1,7 @@
 {
   "name": "molo-landing-page",
   "version": "1.0.0",
-  "description": "molo landing page",
+  "description": "Molo Landing Page",
   "main": "index.js",
   "keywords": [
     "molo",
@@ -11,5 +11,8 @@
     "static"
   ],
   "author": "Sam De Maeyer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.6.1"
+  }
 }
