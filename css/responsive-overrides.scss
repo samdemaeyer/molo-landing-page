@@ -3,6 +3,17 @@
     padding: 0 200px;
   }
 }
+
+@media screen and (max-width: 430px) {
+  .main-hero {
+    .hero-body {
+      padding: 1.5rem;
+    }
+    h2 { font-size: 60px !important; }
+    h3, h4 { font-size: 30px !important; }
+  }
+}
+
 @media screen and (max-width: 600px) {
   .level-left + .level-right {
     margin-top: 1.5rem !important;
@@ -30,14 +41,6 @@
 @media screen and (max-width: 769px) {
   .level-left + .level-right {
     margin-top: inherit;
-  }
-}
-
-@media screen and (max-width: 430px) {
-  .main-hero {
-    h2 { font-size: 60px; }
-    h3 { font-size: 35px; }
-    h4 { font-size: 30px; }
   }
 }
 
