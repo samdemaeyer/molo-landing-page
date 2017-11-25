@@ -3,20 +3,158 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+    <title>Molo Landing Page</title>
+    <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
-    </div>
-  </section>
+    <header class="hero main-nav">
+      <div class="hero-body">
+        <div class="container">
+          <nav class="level">
+            <div class="level-left">
+              <div class="level-item logo-wrapper">
+                <img src="images/molo_logo.svg" alt="logo" class="main-logo">
+                <span class="main-seperator"></span>
+                <p class="has-text-primary-blue">The UK's first fully digital mortgage lender</p>
+              </div>
+            </div>
+            <div class="level-right">
+              <p class="level-item no-margin">
+                <a href="mailto:info@molofinance.com" class="contact-link has-text-primary-blue">
+                  Get in touch
+                  <span class="seperator"></span>
+                  Work with us
+                </a>
+              </p>
+              <span class="main-seperator"></span>
+              <div class="level-item social-icons">
+                <p>#mortgagelove</p>
+                <a href="https://www.facebook.com/molofinance/" target="_blank" rel="noreferrer noopener" class="has-text-primary-blue social-icon first">
+                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/molofinance/" target="_blank" rel="noreferrer noopener" class="has-text-primary-blue social-icon">
+                  <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/molofinance/" target="_blank" rel="noreferrer noopener" class="has-text-primary-blue social-icon">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <header class="hero main-hero">
+      <div class="hero-body">
+        <div class="container">
+          <h4 class="has-text-centered has-text-white">Your mortgage.</h4>
+          <h3 class="has-text-centered has-text-primary-blue is-uppercase">Simple. Anytime.</h3>
+          <h2 class="has-text-centered has-text-white is-uppercase">
+            Instant<span class="blue-dot has-text-primary-blue">.</span>
+          </h2>
+          <h5 class="has-text-centered has-text-white">
+            Whether you are a first-time buyer or looking for a new re-mortgage deal,
+            you could get a new fully approved mortgage in no time.
+          </h5>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero sub-header">
+      <div class="hero-body">
+        <div class="container">
+          <h5 class="has-text-centered has-text-white">
+            Bringing mortgages into the 21st century. <strong class="has-text-white">At last.</strong>
+          </h5>
+        </div>
+      </div>
+    </section>
+
+    <main class="main">
+      <section class="section why-molo">
+        <div class="container">
+          <h2 class="title has-text-centered">Why Molo?</h2>
+          <div class="columns">
+            <div class="column has-text-centered">
+              <img src="images/icon_quick.png" alt="quick">
+              <h3 class="has-text-primary-blue is-uppercase">Instant hassle-free <br> approval.</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="column has-text-centered">
+              <img src="images/icon_available.png" alt="available">
+              <h3 class="has-text-primary-blue is-uppercase">Available anytime, <br> from anywhere.</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="column has-text-centered">
+              <img src="images/icon_comp.png" alt="competitive">
+              <h3 class="has-text-primary-blue is-uppercase">Competitive rates <br> no hidden charges.</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section testimony">
+        <div class="container has-text-centered">
+          <img src="images/headshot.png" alt="testimony-headshot" class="headshot">
+          <article>
+            <p class="testimony-text has-text-primary-blue">
+              Finding a home to buy is a big deal. Getting a mortgage for it shouldn’t be. <br>
+              At Molo we don’t want to just marginally improve the mortgage process:
+              our objective is to radically redesign the mortgage experience for the 21st century,
+              by taking advantage of the power of technology.
+            </p>
+            <div class="testimony-name-wrapper">
+              <hr class="vertical-seperator">
+              <p class="is-uppercase has-text-primary-blue name">Francesca Carlesi</p>
+              <p class="position">Molo Co-Founder and CEO</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="#" class="arrow-up" onclick="scrollToTop(600, event);"></a>
+      <div class="container">
+        <nav class="level">
+          <div class="level-left">
+            <p class="level-item">
+              <a href="mailto:info@molofinance.com" class="has-text-white has-text-weight-semibold">
+                <i class="fa fa-envelope" aria-hidden="true"></i> info@molofinance.com
+              </a>
+            </p>
+          </div>
+          <div class="level-item has-text-centered has-text-white copyright-wrapper">
+            <img src="images/molo_white.png" alt="molo-logo-white" class="molo-logo-white">
+            <p class="copyright">© Copyright 2017 Molotech Ltd. All rights reserved.</p>
+          </div>
+          <div class="level-right">
+            <div class="level-item has-text-white social-icons">
+              <p>#mortgagelove</p>
+              <a href="https://www.facebook.com/molofinance/" target="_blank" rel="noreferrer noopener" class="has-text-white social-icon first">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              </a>
+              <a href="https://twitter.com/molofinance/" target="_blank" rel="noreferrer noopener" class="has-text-white social-icon">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/molofinance/" target="_blank" rel="noreferrer noopener" class="has-text-white social-icon">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </footer>
   </body>
+  <script type="text/javascript" src="index.js"></script>
 </html>

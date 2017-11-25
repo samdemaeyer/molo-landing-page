@@ -1,0 +1,207 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: $gray-text;
+}
+
+.main { flex: 1; }
+
+.has-text-primary-blue { color: $primary-blue !important; }
+
+a.has-text-primary-blue {
+  &:hover { color: lighten($primary-blue, 20%) !important; }
+}
+
+.level-item { font-size: 17px; }
+
+.main-nav {
+  .hero-body { padding: 2rem 1.5rem; }
+  .main-logo { height: 40px; }
+  .main-seperator {
+    display: inline-block;
+    width: 1px;
+    background: $light-gray;
+    height: 40px;
+    margin: 0 25px;
+  }
+  .no-margin { margin: 0 !important; }
+  .contact-link {
+    display: flex;
+    align-items: center;
+
+    .seperator {
+      display: inline-block;
+      width: 1px;
+      background: $primary-blue;
+      height: 20px;
+      margin: 0 10px;
+    }
+    &:hover {
+      .seperator {
+        background: lighten($primary-blue, 20%);
+      }
+    }
+  }
+}
+.social-icons {
+  .social-icon {
+    margin-left: 5px;
+    font-size: 23px;
+
+    &.first {
+      margin-left: 10px;
+    }
+  }
+}
+
+.main-hero {
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 450px;
+
+  h2, h3, h4 { font-weight: bold; }
+
+  h2 {
+    font-size: 90px;
+    line-height: 120px;
+    font-weight: 900;
+  }
+  h3 {
+    font-size: 60px;
+    line-height: 50px;
+  }
+  h4 {
+    font-size: 40px;
+    line-height: 75px;
+  }
+  h5 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .blue-dot { font-size: 50px; }
+}
+.sub-header {
+  align-items: center;
+
+  .hero-body {
+    padding: 2rem 1.5rem;
+    background: $primary-blue;
+    width: 100%;
+
+    h5 { font-size: 22px; }
+  }
+  &::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid $primary-blue;
+  }
+}
+.why-molo {
+  background: #f1eeef;
+  background: -moz-linear-gradient(top, $gray-gradient-start 0%, $gray-gradient-end 100%);
+  background: -webkit-linear-gradient(top, $gray-gradient-start 0%,$gray-gradient-end 100%);
+  background: linear-gradient(to bottom, $gray-gradient-start 0%,$gray-gradient-end 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f1f1',GradientType=0 );
+
+  .title {
+    color: $primary-orange;
+    margin-bottom: 60px;
+  }
+  .column {
+    h3 {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 24px;
+      margin: 20px 0;
+    }
+  }
+  .description {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 25px;
+  }
+}
+.testimony {
+  .headshot { margin-bottom: 25px; }
+  .testimony-text {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 27px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 35px;
+    position: relative;
+
+    &::before, &::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 50px;
+      background-size: 50px;
+      background-repeat: no-repeat;
+      position: absolute;
+    }
+    &::before {
+      background-image: url('../images/quote_l.png');
+      left: -50px;
+      top: -20px;
+    }
+    &::after {
+      background-image: url('../images/quote_r.png');
+      right: -50px;
+      bottom: -20px;
+    }
+  }
+  .testimony-name-wrapper {
+    .vertical-seperator {
+      width: 100px;
+      height: 2px;
+      margin: 2rem auto 1rem auto;
+      background-color: $primary-orange;
+    }
+    .name {
+      font-size: 22px;
+      font-weight: 500;
+    }
+  }
+}
+.footer {
+  border-top: 10px solid $primary-orange;
+  background-color: $primary-blue;
+  padding: 2rem 1.5rem;
+  position: relative;
+
+  .arrow-up {
+    background: url('../images/top.png');
+    display: block;
+    width: 30px;
+    height: 34px;
+    position: absolute;
+    top: -44px;
+    right: 50px;
+  }
+
+  .fa-envelope {
+    color: $primary-orange;
+    margin-right: 5px;
+  }
+  .copyright-wrapper {
+    flex-direction: column;
+
+    .copyright {
+      font-size: 12px;
+      margin-top: 10px;
+      font-weight: 600;
+    }
+  }
+  .social-icons {
+
+  }
+}

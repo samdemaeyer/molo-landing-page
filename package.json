@@ -11,8 +11,5 @@
     "static"
   ],
   "author": "Sam De Maeyer",
-  "license": "ISC",
-  "dependencies": {
-    "bulma": "^0.6.1"
-  }
+  "license": "ISC"
 }
