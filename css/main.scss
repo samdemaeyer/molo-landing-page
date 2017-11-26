@@ -26,10 +26,7 @@ a.has-text-primary-blue {
     margin: 0 25px;
   }
   .no-margin { margin: 0 !important; }
-  .contact-link {
-    display: flex;
-    align-items: center;
-
+  .level-right {
     .seperator {
       display: inline-block;
       width: 1px;
@@ -37,6 +34,11 @@ a.has-text-primary-blue {
       height: 20px;
       margin: 0 10px;
     }
+  }
+  .contact-link {
+    display: flex;
+    align-items: center;
+
     &:hover {
       .seperator {
         background: lighten($primary-blue, 20%);
@@ -179,13 +181,23 @@ a.has-text-primary-blue {
   position: relative;
 
   .arrow-up {
-    background: url('../images/top.png');
+    background-color: $primary-orange;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
     display: block;
     width: 30px;
     height: 34px;
     position: absolute;
     top: -44px;
     right: 50px;
+    text-align: center;
+    line-height: 34px;
+
+    &::after {
+      content: '\f062';
+      font: normal normal normal 14px/1 FontAwesome;
+      color: $white;
+    }
   }
 
   .fa-envelope {
@@ -197,11 +209,7 @@ a.has-text-primary-blue {
 
     .copyright {
       font-size: 12px;
-      margin-top: 10px;
       font-weight: 600;
     }
-  }
-  .social-icons {
-
   }
 }

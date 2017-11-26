@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="251" height="176" viewBox="1544 4073 3412 2388" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
+  <defs>
+    <style>
+<![CDATA[
+    .fil0 {fill:#F15F3B;fill-rule:nonzero}
+    .fil1 {fill:none;fill-rule:nonzero}
+   ]]>
+    </style>
+  </defs>
+  <g id="Layer_x0020_1">
+    <path class="fil1" d="M4789 6461H1711c-92 0-167-75-167-167V4240c0-92 75-167 167-167h3078c92 0 167 75 167 167v2054c0 92-75 167-167 167z"/>
+    <path class="fil0" d="M1953 4546c0-74 40-111 111-111h94c74 0 111 37 111 111v152c0 51-10 98-10 98h7c84-199 324-401 594-401 287 0 452 132 513 388h7c91-199 327-388 604-388 388 0 563 219 563 654v982c0 74-37 111-111 111h-105c-71 0-111-37-111-111v-911c0-240-47-428-300-428-317 0-506 327-506 654v685c0 74-37 111-108 111h-108c-71 0-108-37-108-111v-911c0-223-34-428-297-428-324 0-513 337-513 654v685c0 74-37 111-111 111h-105c-71 0-111-37-111-111V4547z"/>
+  </g>
+</svg>
